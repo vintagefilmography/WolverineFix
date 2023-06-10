@@ -83,12 +83,13 @@ In addition to basic video processing, VirtialDub reads the avisynth script as w
 Download VirtualDub from here:  
 https://sourceforge.net/projects/vdfiltermod/files/  
 Run VirtualDub.
-Should get a dub window that looks like the following picture:  
+Should get a window that looks like the following picture:  
 ![image](https://github.com/vintagefilmography/Hawkeye3/assets/48537944/abe5bc97-fe19-4714-ac30-c9fc77c092d3)
 
-Using the avisynth script can get a bit tricky because there are so many plugins out there and you will usually
-run into a plugin missing error. That is why the scripts zip file here contains most of the DLLs needed.  
-Download the scripts zip file and unzip it somewhere in your work directory.  
+The video file obtained by the capture sw uses the H264 codec and cannot be processed directly by the dups  
+script. To get around this issue drag the video into virtual dub and save it using lagarith codec or raw.   
+Raw obviously will take up more space.
+Not this saved file ewill be compatible with the dups script.  
 
 Go to the scripts directory and open up remove_dups.avs in any text editor like Notepad or any other text editor.  
 Change the source path in the script to point to your vdeo. 
@@ -100,11 +101,12 @@ After a minute or so the video first frame will be displayed.
 At that point, set the video compression in the video pulldown and save the video.  
 No further processing will be required. 
 In unlikely case that there are black frames in the resulting video, run the remove_black_frames.avs script included here
+Once this is completed the resulting video cana be brought back into VirtualDun or DaVinci Resolve to do the final cut.  
 
 If the script reports issues with loading certain plugins the most likely reason is that the your window installation 
 is missing some DLLs. 
 Run avsmeter.exe. in command window. It is in the scripts directory.
 You can also try dependency walker.
 https://www.dependencywalker.com/#:~:text=Dependency%20Walker%20is%20a%20free,diagram%20of%20all%20dependent%20modules.  
-Some emore details here:  
+Some more details here:  
 https://forum.doom9.org/showthread.php?t=172793
