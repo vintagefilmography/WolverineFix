@@ -15,8 +15,7 @@ postprocessing software (also included).
 ## Instructions
 Plug the dc adapter into the unit at the back DC input jack.  
 
-Set the R8/S8 (regular 8 or super 8 film) switch as needed.
-![r8s8](https://github.com/vintagefilmography/Hawkeye3/assets/48537944/06ce9cfd-f50c-4a43-b0dc-85dadc4a7da3)  
+Set the R8/S8 (regular 8 or super 8 film) switch as needed. 
 ![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/52fcc4e7-2a82-4c18-bd75-e2e2c19ed029)  
 
 Thread the film in.  
