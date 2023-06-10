@@ -38,8 +38,7 @@ Select the camera
 ![image](https://github.com/vintagefilmography/Hawkeye3/assets/48537944/952fda6c-07f7-4e3f-ae13-06673e56699b)  
 Enable preview:
 ![image](https://github.com/vintagefilmography/Hawkeye3/assets/48537944/9e3792fa-4f28-45f2-9d5f-e48f9ba5cf48)  
-The frame preview shouldd be displayed. This one should here is  for the 6mm lens. The 12mm will have larger frame and
-proper orientation.
+The frame preview should be displayed. 
 If you get the white screen only then the camera may need a reset. Just unplug the camera from the PC and   
 plug it back in.  
 ![image](https://github.com/vintagefilmography/Hawkeye3/assets/48537944/0eb5f07b-6494-4933-baf3-db8127d419ab)  
