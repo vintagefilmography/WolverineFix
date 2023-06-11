@@ -74,10 +74,10 @@ The video will contain many duplicate frames and transitions.
 It is easy to remove the duplicates and the transition frames by using the Avisynth remove_dups script.  
 The first step in getting the the script working is to get Avisynth from:  
 https://sourceforge.net/projects/avisynth2/  
-Here is the avisynth page. You can skip it for now. It is just for your reference.
+Here is the avisynth home page. You can skip it for now. It is just for your reference.
 http://avisynth.nl/index.php/Main_Page   
 Avisynth does not run as a standalone application. It is a tool that allows video editors and viewers to run the script.  
-The script is essentially a text file that contains the avisynth commands for video processing.  
+The script is essentially a text file that contains avisynth commands for video processing.  
 One video tool that is very handy for video processing is called VirtualDub.  
 In addition to basic video processing, VirtialDub reads the avisynth script as well.  
 Download VirtualDub from here:  
@@ -87,9 +87,9 @@ Should get a window that looks like the following picture:
 ![image](https://github.com/vintagefilmography/Hawkeye3/assets/48537944/abe5bc97-fe19-4714-ac30-c9fc77c092d3)
 
 The video file obtained by the capture sw uses the H264 codec and cannot be processed directly by the dups  
-script. To get around this issue drag the video into virtual dub and save it using lagarith codec or raw.   
+script. To get around this issue drag the video into virtual dub and save it using the lagarith codec or raw.   
 Raw obviously will take up more space.
-Not this saved file ewill be compatible with the dups script.  
+Now this saved file will be compatible with the dups script.  
 
 Go to the scripts directory and open up remove_dups.avs in any text editor like Notepad or any other text editor.  
 Change the source path in the script to point to your vdeo. 
@@ -99,9 +99,8 @@ film = "F:\canon\clip1_raw.avi"
 Once done with the script, just drag the script file into the VirtualDub window.  
 After a minute or so the video first frame will be displayed.  
 At that point, set the video compression in the video pulldown and save the video.  
-No further processing will be required. 
 In unlikely case that there are black frames in the resulting video, run the remove_black_frames.avs script included here
-Once this is completed the resulting video cana be brought back into VirtualDun or DaVinci Resolve to do the final cut.  
+Once this is completed the resulting video can be brought back into VirtualDub or DaVinci Resolve to do the final cut.  
 
 If the script reports issues with loading certain plugins the most likely reason is that the your window installation 
 is missing some DLLs. 
