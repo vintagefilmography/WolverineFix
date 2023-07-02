@@ -1,34 +1,39 @@
 # Wolverine Fix  
 ![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/88e97f9c-a7ec-483f-aee5-a6d064f4f645)  
   
-
 This is the documentation for a simple Wolverine mod that replaces the stock camera 
-with an equvalent camera that does not have digital artifacts issue.
-The Wolverine controller and its camera are moved higher using the standoffs allowing enough free space for the new camera  
-to be mounted in the place of the old controller and dits camera.  
-The camera used is the usb ELP model ELP-USBFHD04H-FV. It uses an AR0330 sensor with 1080P resolution. Essentially, the same
-sensor that the Wolverine model uses but unlike Wolverine this one allows the user full access to the camera settings. 
+with an equvalent camera that does not have digital artifacts issue.  
+The Wolverine controller and its camera are placed higher using the standoffs allowing enough free space for the new camera  
+to be mounted in place of the old controller and its camera.  
+The camera used is the usb ELP model ELP-USBFHD04H-FV.   
+It uses an AR0330 sensor with 1080P resolution. Essentially, the same sensor that the Wolverine model uses   
+but unlike Wolverine this one allows the user full access to the camera settings. 
 The camera connects to a Windows PC that runs a capture software (included here). The capture software runs at  
-30 FPS and creates a video that includes the film transitions. The transitions can then be removed with the 
-postprocessing software (also included).
+15 FPS and creates a video that includes the film transitions. The transitions can then be removed with the  
+postprocessing software (also included).  
 
-## Instructions
+## Instructions  
 Plug the dc adapter into the unit at the back DC input jack.  
 
 Set the R8/S8 (regular 8 or super 8 film) switch as needed. 
 ![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/52fcc4e7-2a82-4c18-bd75-e2e2c19ed029)  
 
 Thread the film in.  
-Activate Run switch  
+Activate Run switch   
 ![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/1bda5d59-3778-4370-9c5a-7dd2cb06b6dc)  
 
 Press power button on the Wolverine controller.  
 ![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/8e1df786-3c0d-442c-ae28-6bf5de4f916b)  
  
 The unit should start advancing the film.  
-Once the lead is done and the good film section start running through the gate, turn the RUN switch off.  
-The motor will stop but the light will be still on.
+Once the film lead is done and the good film section start running through the gate, turn the RUN switch off.  
+The motor will stop but the light will be still on.  
 Plug the camera usb cable from the back of the unit into a PC usb connector.  
+Download CapSample1.exe to your local drive.  
+Extract it.  
+Go to:  
+..\CapSample1\CapSample\bin  directory and run CapSample.exe  
+
 Download "3-H.264 USB Camera Testing software for Windows-20230606T131020Z-001.zip" file to your local directory.
 Unzip it and go into it. 
 Then double click on H264_Preview.exe  
