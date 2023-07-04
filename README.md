@@ -34,20 +34,25 @@ Extract it.
 Go to:  
 ..\CapSample1\CapSample\bin  directory and run CapSample.exe  
 Select camera
+![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/739e5040-5c82-4d1b-a6f2-12ea4512b99c)
  
 The config window should pop up
+![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/7d7a6b80-792d-4e58-8e67-b126cd560a5c)
  
 Select 15 FPS
 Click OK. 
 The preview window should display the camera preview.
+![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/08fb6415-1df7-408d-b7a1-99aa4c23c814)
  
 Click on video capture device in the config window.
 The camera info window should pop up.
+![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/30fa9b15-1f12-44cc-9d48-7383b5f61a58)
  
 Click on Camera Control tab and set the exposure to manual and set the exposure control as needed. The auto exposure works ok sometimes but it can be fooled by the image white areas such as sprocket holes. 
 Now, you are basically ready to start the capture. The default output directory in the config window is set to C:/Capture. You can leave it like that or change it to some other destination. 
 It may be better to save the video to your local C: drive to ensure that there are no dropped frames. Once the capture is done it is easy just to copy the video from c: drive to an external drive and postprocess it right there.
 Press the start button:
+![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/ee5da0ec-926e-46f0-8f33-bc2f0a620e7e)
  
 Turn the unit of by pressing the power button in the original controller. Then, turn the run switch on and press the power button again.
 The unit should start running and the output will be sent to the C:\Capture directory or whatever directory you selected.
