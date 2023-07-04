@@ -13,7 +13,7 @@ The camera connects to a Windows PC that runs a capture software (included here)
 postprocessing software (also included).  
 
 ## Instructions  
-Plug the dc adapter into the unit at the back DC input jack.  
+Plug the dc adapter into the unit at the back DC input jack.   
 
 Set the R8/S8 (regular 8 or super 8 film) switch as needed. 
 ![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/52fcc4e7-2a82-4c18-bd75-e2e2c19ed029)  
