@@ -33,6 +33,28 @@ Download CapSample1.exe to your local drive.
 Extract it.  
 Go to:  
 ..\CapSample1\CapSample\bin  directory and run CapSample.exe  
+Select camera
+ 
+The config window should pop up
+ 
+Select 15 FPS
+Click OK. 
+The preview window should display the camera preview.
+ 
+Click on video capture device in the config window.
+The camera info window should pop up.
+ 
+Click on Camera Control tab and set the exposure to manual and set the exposure control as needed. The auto exposure works ok sometimes but it can be fooled by the image white areas such as sprocket holes. 
+Now, you are basically ready to start the capture. The default output directory in the config window is set to C:/Capture. You can leave it like that or change it to some other destination. 
+It may be better to save the video to your local C: drive to ensure that there are no dropped frames. Once the capture is done it is easy just to copy the video from c: drive to an external drive and postprocess it right there.
+Press the start button:
+ 
+Turn the unit of by pressing the power button in the original controller. Then, turn the run switch on and press the power button again.
+The unit should start running and the output will be sent to the C:\Capture directory or whatever directory you selected.
+Note that you can adjust the exposure dynamically while the capture is running. It is also possible to adjust other camera parameters if required.
+Once done, hit the Stop button in the preview window.
+
+## Alternative Capture Software
 
 Download "3-H.264 USB Camera Testing software for Windows-20230606T131020Z-001.zip" file to your local directory.
 Unzip it and go into it. 
