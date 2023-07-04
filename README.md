@@ -87,8 +87,16 @@ and camera controls
 ![image](https://github.com/vintagefilmography/Hawkeye3/assets/48537944/1954d44c-acd5-4b7b-9898-d391f2e12684)  
 These can be let as is. Under some conditions manual exposure and manual white balance may work better.  
 The best way is to experiment with the settings  to achiveve best results. 
-Some additional info:  
-https://docs.arducam.com/UVC-Camera/Quick-Start-for-Different-Systems/Windows/  
+If you get some green frames at the beginning of the captured video with H264_preview.exe  do the following:  
+Change the GOP in the H264 control pulldown to something lower than 29.  
+![image](https://github.com/vintagefilmography/WolverineFix/assets/48537944/c75342b8-c7d0-45a0-9dd2-5f54c27ed86c)  
+
+The GOP is a compression scheme where you group a set of images and use the first one as the key image.  
+In the subsequent images you just send the diff info.  
+But if the group is too long and you have dropped images the stream can go out of sequence and cannot decode the images completely.  
+In the same popup window you can adjust the bit rate. Around 4000 kbps is still good quality. 
+Check the dropped frames info on the bottom while capturing. A few here and there are ok but you do not want this  
+get large. If it is then lower the FPS or bit rate or increase the GOP.  
 
 Once all of this is set, run capture.  
 ![image](https://github.com/vintagefilmography/Hawkeye3/assets/48537944/532e3005-2209-4884-9a9a-d0ce9e1cad0a)  
